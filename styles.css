@@ -4,6 +4,71 @@
     --paragraph: hsl(220, 15%, 55%);
     --header: hsl(218, 44%, 22%);
 }
+:root {
+    --container: hsl(0, 0%, 100%);
+    --bg-color: hsl(212, 45%, 89%);
+    --paragraph: hsl(220, 15%, 55%);
+    --header: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    min-height: 100dvh;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--container);
+    margin-inline: 11rem;
+    max-width: 360px;
+    height: 560px;
+    padding: 18px 18px 20px 18px;
+    border-radius: 20px;
+}
+
+.container > .qr-img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.container > h1 {
+    color: var(--header);
+    padding-top: 1.7rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.57rem;
+}
+
+.container > p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.3;
+    padding-block-start: 1.2rem;
+    padding-inline: 1.6rem;
+    color: var(--paragraph);
+}
+
+@media screen and (max-width: 768.98px) {
+    .container {
+        margin-inline: 2rem;
+    }
+
+    .container > h1 {
+        font-size: 1.6rem;
+    }
+}
 
 * {
     margin: 0;

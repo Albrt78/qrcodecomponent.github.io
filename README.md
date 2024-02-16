@@ -16,7 +16,7 @@ This challenge is designed based on the provided template from Frontend Mentor w
 
 ### Links
 
--   Solution URL: [QR Code Component](https://github.com/Albrt78/frontend_mentor_project/tree/main/QR%20code%20component)
+-   Solution URL: [QR Code Component](https://albrt78.github.io/qrcodecomponent.github.io/)
 -   Live Site URL: [QR Code Component](https://albrt78.github.io/qrcodecomponent.github.io/)
 
 ### Built with

@@ -16,8 +16,8 @@ This challenge is designed based on the provided template from Frontend Mentor w
 
 ### Links
 
--   Solution URL: [https://github.com/Albrt78/frontend_mentor_project/tree/main/QR%20code%20component]
--   Live Site URL: [https://newbie1.netlify.app/]
+-   Solution URL: [QR Code Component](https://github.com/Albrt78/frontend_mentor_project/tree/main/QR%20code%20component)
+-   Live Site URL: [QR Code Component](https://albrt78.github.io/qrcodecomponent.github.io/)
 
 ### Built with
 

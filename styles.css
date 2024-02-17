@@ -60,7 +60,7 @@ body {
     color: var(--paragraph);
 }
 
-@media screen and (max-width: 768.98px) {
+@media (max-width: 768.98px) {
     .container {
         margin-inline: 2rem;
     }

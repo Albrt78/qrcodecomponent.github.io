@@ -62,7 +62,7 @@ body {
 
 @media (max-width: 768.98px) {
     .container {
-        margin-inline: 2rem;
+        margin-inline: 0;
     }
 
     .container > h1 {

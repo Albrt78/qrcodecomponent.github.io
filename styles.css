@@ -1,12 +1,6 @@
 :root {
     --container: hsl(0, 0%, 100%);
     --bg-color: hsl(212, 45%, 89%);
-    --paragraph: hsl(216, 15%, 48%);
-    --header: hsl(218, 44%, 22%);
-}
-:root {
-    --container: hsl(0, 0%, 100%);
-    --bg-color: hsl(212, 45%, 89%);
     --paragraph: hsl(220, 15%, 55%);
     --header: hsl(218, 44%, 22%);
 }
@@ -67,5 +61,19 @@ body {
 
     .container > h1 {
         font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 320.98px) {
+    .container > h1 {
+        padding-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .container > p {
+        font-size: 0.9rem;
+        padding-inline: 1rem;
+        padding-block-end: 0;
+        padding-block-start: 0.8rem;
     }
 }

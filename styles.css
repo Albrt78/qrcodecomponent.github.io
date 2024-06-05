@@ -57,6 +57,7 @@ body {
 @media (max-width: 768.98px) {
     .container {
         margin-inline: 1rem;
+        height: auto;
     }
 
     .container > h1 {
